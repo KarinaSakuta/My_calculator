@@ -1,0 +1,40 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Калькулятор</title>
+<link href="style.css" rel="stylesheet">
+<link rel="shortcut icon" href="img/icon.png" type="image/png">
+<script src="index.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+
+<body>
+	<div class="calculator">
+	<form name="calc" id="calculator">
+		<div class="container">
+			<div>
+				<input type="text" readonly name="input" size="16" class="display">
+				<input type="button" class="values" name="clear" value="c" OnClick="calc.input.value = ''">
+			</div>
+			<div class="buttons">
+				<input type="button" class="values" name="seven" value="7" id="seven">
+				<input type="button" class="values" name="eight" value="8" id="eight">
+				<input type="button" class="values" name="nine" value="9" id="nine">
+				<input type="button" class="values" name="add" value="+" id="plus">
+				<input type="button" class="values" name="sub" value="-" id="minus">
+				<input type="button" class="values" name="four" value="4" id="four">
+				<input type="button" class="values" name="five" value="5" id="five">
+				<input type="button" class="values" name="six" value="6" id="six">
+				<input type="button" class="values" name="mul" value="x" id="mul">
+				<input type="button" class="values" name="div"  value="/" id="div">
+				<input type="button" class="values" name="one" value="1" id="one">
+				<input type="button" class="values" name="two" value="2" id="two">
+				<input type="button" class="values" name="three" value="3" id="three">
+				<input type="button" class="values" name="drop"  value="." id="drop">
+				<input type="button" class="values" name="doit" value="=" id="doit">
+				<input type="button" class="values" name="zero" value="0" id="zero">
+			</div>
+		</div>
+	</form>
+</div>
+</body>
+</html>
