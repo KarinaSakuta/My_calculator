@@ -51,13 +51,13 @@ zero.onclick = function() {
 };
 
 doit.onclick = function() {
-	calc.input.value = eval(calc.input.value)
+	calc.input.value = Math.round(eval(calc.input.value))
 };
 
 div.onclick = function() {
 	calc.input.value += '/'
 };
 
-drop.onclick = function() {
-	calc.input.value += '.'
-};
+// drop.onclick = function() {
+// 	calc.input.value += '.'
+// };
